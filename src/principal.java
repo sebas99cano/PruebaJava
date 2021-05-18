@@ -11,7 +11,7 @@ public class principal {
         String celular = leer.nextLine();
         System.out.println("Edad: ");
         int edad = leer.nextInt();
-        //mostrar datos en pantalla
+        //mostrar datos del usuario en pantalla
         System.out.println("Bienvenido señor " + nombreUsuario + ", es un placer para nosotros contar con una persona de " + edad + " años.\n" + "\n" + "Próximamente nos comunicaremos con usted al numero " + celular + ".\n" + "\n" + "Feliz día");
     }
 }
